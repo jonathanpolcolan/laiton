@@ -1,15 +1,12 @@
 // Función para crear y agregar un botón dinámicamente
 function createButton() {
     var button = document.createElement("button");
-    button.textContent = "Mostrar Imagen";
+    button.textContent = "Alerta";
     
     // Añadir evento de clic al botón
     button.addEventListener("click", function() {
-        var image = document.getElementById("imageContainer");
-        // Cambiar la ruta de la imagen a "foto.png"
-        image.src = "millos.mp4";
-        // Mostrar la imagen estableciendo su estilo display en "block"
-        image.style.display = "block";
+        // Mostrar una alerta con el mensaje "Hola"
+        alert("si te gusta el futbol y la historia esta es tu pagina");
     });
     
     // Agregar el botón al contenedor de botones en el HTML

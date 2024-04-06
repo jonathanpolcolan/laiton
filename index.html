@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,29 +11,21 @@
 </head>
 <style>
   body {
-      background-image: url(index.jpg); 
-      background-size: 100%; 
-      background-position: center px;
-      background-repeat: no-repeat;
-  }
-  .content {
-      background-color: rgba(255, 255, 255, 0.7); 
-      padding: 20px;
-      border-radius: 10px;
+    background-image: url(img/index.jpg);
+
   }
 </style>
+
 <body>
   <br>
-  <h1 class="text-center mt-5"style="color:orange;"> LOS MEJORES DEL FUTBOL </h1>
-  
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
-<br>
-<br>
-<br>
-<br>
-<br>
+  <h1 class="text-center mt-5" style="color:orange;"> LOS MEJORES DEL FUTBOL </h1>
+
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">TOP 6 DE LA HISTORIA: </a>
@@ -72,7 +63,7 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="formu.html"style="color: red;">DEJANOS TU CONTACTO</a>
+            <a class="nav-link active" aria-current="page" href="formu.html" style="color: red;">DEJANOS TU CONTACTO</a>
           </li>
 
         </ul>
@@ -81,20 +72,30 @@
   </nav>
 
   <br>
+  <section>
+    <!-- Aquí es donde se insertará el botón -->
+    <div id="buttonContainer"></div>
+    <!-- Aquí es donde se mostrará la imagen -->
+    <img id="imageContainer" src="" alt="Imagen" style="display: none;">
 
- <!-- Aquí es donde se insertará el botón -->
- <div id="buttonContainer"></div>
- <!-- Aquí es donde se mostrará la imagen -->
- <img id="imageContainer" src="" alt="Imagen" style="display: none;">
+    <br>
 
-  <br>
-  
-  <a href="millos.mp4" class="btn btn-primary">VIDEO DESTACADO</a>
-  </div>
+    <div class="video-container">
+      <iframe src="img/millos.mp4" frameborder="0">campeon</iframe>
+    </div>
 
+    <a href="img/millos.mp4" class="btn btn-primary">VIDEO DESTACADO</a>
+    </div>
+   
+  </section>
 
-    <!-- Importante: Incluir el script de JavaScript al final del body -->
-    <script src="script.js"></script>
+   
+
+  <!-- Importante: Incluir el script de JavaScript al final del body -->
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 
 </body>
 
